@@ -1,0 +1,15 @@
+.btn{
+    color: $white;
+    padding: 0.8rem;
+    display: inline-block;
+    background-color: $main-color;
+    transition: .3s ease-in-out;
+    border: 1px solid $main-color;
+    font-family: "header-font-regular";
+    
+    &:hover{
+        background-color: $white;
+        color: $main-color;
+    }
+
+}

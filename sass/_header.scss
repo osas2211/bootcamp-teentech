@@ -1,0 +1,45 @@
+.main-header{
+    display: flex;
+    position: sticky;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    color: $white;
+    background-color: $header-color;
+    box-shadow: 4px 1px 15px #021a13d7;
+    h2{
+        font-family: "logo";
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, $white, rgba(181, 224, 180, 0.925));
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 1.4rem;
+    }
+    ul{
+        list-style: none;
+        font-family: "header-font-regular";
+        li{
+            display: inline-block;
+            margin-left: 1rem;
+        }
+    }
+    a{
+        color: $white;
+    }
+
+    a:hover{
+        color: $main-color;
+    }
+}
+
+.desktop{
+    display: block;
+}
+.hamburger{
+    height: 2rem;
+    display: none;
+}

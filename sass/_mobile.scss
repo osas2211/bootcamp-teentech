@@ -1,0 +1,50 @@
+@media (max-width: 700px) {
+    .desktop{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        height: 1.5rem;
+    }
+    .main-header{
+        padding: 1rem 2rem;
+        h2{
+            font-size: 1.2rem;
+        }
+    }
+    .home{
+        margin-top: 1.5rem;
+        .container{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            h2{
+                width: 100%;
+                font-size: 1.7rem;
+                opacity: 0.8;
+            }
+            p{
+                width: 100%;
+            }
+        }
+        .photos{
+            .img-1{
+                height: 17rem;
+                width: 20rem;
+            }
+            .img {
+                top: 4rem;
+                left: -3.6rem;
+                .img-2{
+                    height: 10rem;
+                    width: 10rem;
+                }
+            }
+        }
+
+    }
+}

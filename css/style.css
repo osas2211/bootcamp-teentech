@@ -173,7 +173,7 @@ h1 {
     .home .text h2 {
       width: 100%;
       font-size: 1.7rem;
-      opacity: 0.8; }
+      opacity: 0.6; }
     .home .text p {
       width: 100%; }
     .home .photos .img-1 {
@@ -181,7 +181,7 @@ h1 {
       width: 20rem; }
     .home .photos .img {
       top: 4rem;
-      left: -3.6rem; }
+      left: -1.8rem; }
       .home .photos .img .img-2 {
         height: 10rem;
         width: 10rem; } }

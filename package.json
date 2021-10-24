@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "TeenTech Africa Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Osaretin Frank",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

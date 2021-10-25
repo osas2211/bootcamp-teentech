@@ -2,19 +2,20 @@
     display: flex;
     position: sticky;
     z-index: 4;
+    width: 100%;
     top: 0;
-    right: 0;
+    left: 0;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 1rem 4rem;
     color: $white;
     background-color: $header-color;
-    box-shadow: 4px 1px 15px #021a13d7;
+    box-shadow: 2px 1px 10px #1a021938;
     h2{
         font-family: "logo";
         letter-spacing: 2px;
-        background-image: linear-gradient(to right, $white, rgba(181, 224, 180, 0.925));
+        background-image: linear-gradient(to left, #f56ef5c9, #d428d4c9);
         -webkit-background-clip: text;
         color: transparent;
         font-size: 1.4rem;
@@ -27,8 +28,8 @@
             margin-left: 1rem;
         }
     }
-    a{
-        color: $white;
+    a.home-link{
+        color: $main-color;
     }
 
     a:hover{

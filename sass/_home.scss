@@ -4,12 +4,13 @@
 }
 
 .home{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 2rem;
     }
     .text{
         margin-top: 2rem;
@@ -30,15 +31,6 @@
         }
         .btn{
             padding: 0.9rem 2.2rem;
-        }
-        .home-style{
-            position: absolute;
-            bottom: -8rem;
-            left: 0;
-            width: 70%;
-            height: 5rem;
-            background-color: $header-color;
-            clip-path: polygon(0 88%, 0% 100%, 100% 100%);
         }
     }
     .photos{
@@ -66,5 +58,51 @@
                 }
             }
         }
+    }
+}
+
+.about{
+    background-color: #d428d41c;
+    padding: 3rem 0;
+    h4{
+        font-family: "primary-font-regular";
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        color:$main-color;
+    }
+    p{
+        font-family: "primary-font-regular";
+    }
+    img{
+        width: 30rem;
+        height: 24rem;
+    }
+    .photo{
+        outline: 10px solid #d428d46c;
+        padding: 1rem;
+    }
+    .about-text{
+        width: 50%;
+    }
+}
+
+.applying{
+    width: 85%;
+    margin:auto;
+    padding: 3rem 0;
+    h3{
+        font-family: "primary-font-regular";
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        opacity: 0.8;
+        color: $main-color3;
+    }
+    p{
+        font-family: "primary-font-regular";
+    }
+    .btn{
+        margin-top: 2rem;
     }
 }

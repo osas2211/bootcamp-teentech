@@ -7,6 +7,9 @@
     border: 1px solid $main-color;
     font-family: "header-font-regular";
     color: $white;
+    box-shadow: 2px 1px 5px #0e010d77;
+    border-radius: 2px;
+
     
     &:hover{
         background-color: $white;

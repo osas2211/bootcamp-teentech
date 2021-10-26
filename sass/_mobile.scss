@@ -4,7 +4,6 @@
     }
     .hamburger{
         display: block;
-        height: 1.5rem;
     }
     .main-header{
         padding: 1rem 2rem;
@@ -68,5 +67,25 @@
     }
     .applying{
         width: 90%;
+    }
+    
+    .register{
+        flex-direction: column;
+        justify-content: center;
+        .register-image{
+            display: none;
+        }
+    
+        .register-form{
+            margin-right: 0;
+            &:last-child{
+                text-align: center;
+                
+            }
+            .btn{
+                margin-top: 1.2rem;
+                padding: 1rem 3rem;
+            }
+        }
     }
 }

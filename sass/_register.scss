@@ -1,0 +1,47 @@
+.register{
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    .register-image{
+        width: 30rem;
+        height: 25rem;
+    }
+
+    .register-form{
+        font-family: "primary-font-regular";
+        margin-right: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        p{
+            font-family: "primary-font-medium";
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .input_{
+            margin-bottom: 1rem;
+            label{
+                display: none;
+            }
+            
+            input{
+                outline: none;
+                width: 20rem;
+                height: 2.5rem;
+                padding: 1rem;
+            }
+
+        }
+    }
+}

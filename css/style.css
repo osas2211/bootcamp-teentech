@@ -206,8 +206,12 @@ h1 {
     .register .register-form p {
       font-family: "primary-font-medium";
       font-size: 1.5rem;
-      margin-bottom: 2rem;
+      margin-top: -2rem;
       text-align: center; }
+    .register .register-form span {
+      display: block;
+      margin-bottom: 2rem;
+      color: #d42828c9; }
     .register .register-form .input_ {
       margin-bottom: 1rem; }
       .register .register-form .input_ label {

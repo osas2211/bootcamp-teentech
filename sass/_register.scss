@@ -14,7 +14,7 @@
 
     .register-form{
         font-family: "primary-font-regular";
-        margin-right: 6rem;
+        margin-right: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -33,19 +33,21 @@
             color: #d42828c9;
             
         }    
-        .input_{
-            margin-bottom: 1rem;
-            label{
-                display: none;
-            }
-            
-            input{
-                outline: none;
-                width: 20rem;
-                height: 2.5rem;
-                padding: 1rem;
-            }
-
-        }
+        
     }
+}
+
+.input_{
+    margin-bottom: 1rem;
+    label{
+        display: none;
+    }
+    
+    input{
+        outline: none;
+        width: 20rem;
+        height: 2.5rem;
+        padding: 1rem;
+    }
+
 }

@@ -1,0 +1,27 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    margin-bottom: 4rem;
+    .btn{
+        width: 20rem;
+        background-color: $main-color2;
+        border: 1px solid $main-color2;
+        cursor: pointer;
+        font-size: 1rem;
+
+        &:hover{
+            background-color: $white;
+            color: $main-color2;
+
+        }
+    }
+    p{
+        font-family: "primary-font-medium";
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

@@ -46,16 +46,16 @@ img {
 .btn, .dashboard-btn {
   padding: 0.8rem;
   display: inline-block;
-  background-color: #d727e7c9;
+  background-color: #d727e7;
   transition: .3s ease-in-out;
-  border: 1px solid #d727e7c9;
+  border: 1px solid #d727e7;
   font-family: "header-font-regular";
   color: #FAFAFF;
   box-shadow: 2px 1px 5px #0e010d77;
   border-radius: 2px; }
   .btn:hover, .dashboard-btn:hover {
     background-color: #FAFAFF;
-    color: #d727e7c9; }
+    color: #d727e7; }
 
 .dashboard-btn {
   background-color: #227C9D;
@@ -90,9 +90,9 @@ img {
       display: inline-block;
       margin-left: 1rem; }
   .main-header a.home-link {
-    color: #d727e7c9; }
+    color: #d727e7; }
   .main-header a:hover {
-    color: #d727e7c9; }
+    color: #d727e7; }
 
 .desktop {
   display: block; }
@@ -100,6 +100,36 @@ img {
 .hamburger {
   height: 1rem;
   display: none; }
+
+.active {
+  top: 3rem; }
+
+.inactive {
+  top: -3rem; }
+
+.mobile-menu {
+  display: none;
+  width: 100%;
+  transition: .5s ease-in-out;
+  position: absolute;
+  right: 0;
+  z-index: 2; }
+  .mobile-menu ul {
+    background-color: #d727e7;
+    padding: 1rem;
+    list-style: none;
+    font-family: "header-font-regular";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .mobile-menu ul li:not(:first-child) {
+      margin-top: 1rem; }
+    .mobile-menu ul li {
+      display: inline-block;
+      margin-left: 1rem;
+      color: #FAFAFF; }
+  .mobile-menu a.home-link, .mobile-menu a {
+    color: #FAFAFF; }
 
 .container {
   width: 85%;
@@ -147,7 +177,7 @@ img {
         width: 12rem;
         transition: .3s ease-in-out; }
         .home .photos .img .img-2:hover {
-          outline: 5px solid #d727e7c9;
+          outline: 5px solid #d727e7;
           padding: 1rem; }
 
 .about {
@@ -158,7 +188,7 @@ img {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    color: #d727e7c9; }
+    color: #d727e7; }
   .about p {
     font-family: "primary-font-regular"; }
   .about img {
@@ -349,4 +379,6 @@ h1 {
       font-size: 1.3rem; }
     .dashboard td {
       text-align: left;
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .mobile-menu {
+    display: block; } }

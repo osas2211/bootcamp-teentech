@@ -1,0 +1,37 @@
+.active{
+    top: 3rem;
+}
+.inactive{
+    top: -3rem;
+}
+.mobile-menu{
+    display: none;
+    width: 100%;
+    transition: .5s ease-in-out;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    ul{
+        background-color: $main-color;
+        padding: 1rem;
+        list-style: none;
+        font-family: "header-font-regular";
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        li:not(:first-child){
+            margin-top: 1rem;
+        }
+        li{
+            display: inline-block;
+            margin-left: 1rem;
+            color: $white;
+
+            
+        }
+    }
+    a.home-link, a{
+        color: $white;
+
+    }
+}

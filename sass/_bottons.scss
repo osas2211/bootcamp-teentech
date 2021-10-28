@@ -1,5 +1,4 @@
-.btn{
-    color: $white;
+.btn, .dashboard-btn{
     padding: 0.8rem;
     display: inline-block;
     background-color: $main-color;
@@ -16,4 +15,10 @@
         color: $main-color;
     }
 
+}
+
+.dashboard-btn{
+    background-color: $main-color2;
+    border: 1px solid $main-color2;
+    box-shadow: 2px 1px 5px #01060e77;
 }

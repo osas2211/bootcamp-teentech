@@ -1,0 +1,27 @@
+.dashboard{
+    font-family: "primary-font-regular";
+    margin: 2rem;
+    p{
+        text-align: center;
+        font-size: 1.2rem;
+        span{
+            color: $main-color2;
+            font-size: 2rem;
+            font-family: "logo";
+        }
+    }
+    table{
+        width: 100%;
+        padding: 3rem;
+    }
+    th{
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 300;
+        
+    }
+    td{
+        text-align: left;
+        font-size: 1.1rem;
+    }
+}

@@ -43,8 +43,7 @@ img {
   width: 100%;
   box-sizing: border-box; }
 
-.btn {
-  color: #FAFAFF;
+.btn, .dashboard-btn {
   padding: 0.8rem;
   display: inline-block;
   background-color: #d727e7c9;
@@ -54,9 +53,14 @@ img {
   color: #FAFAFF;
   box-shadow: 2px 1px 5px #0e010d77;
   border-radius: 2px; }
-  .btn:hover {
+  .btn:hover, .dashboard-btn:hover {
     background-color: #FAFAFF;
     color: #d727e7c9; }
+
+.dashboard-btn {
+  background-color: #227C9D;
+  border: 1px solid #227C9D;
+  box-shadow: 2px 1px 5px #01060e77; }
 
 .main-header {
   display: flex;
@@ -245,6 +249,27 @@ h1 {
     margin-bottom: 2rem;
     text-align: center; }
 
+.dashboard {
+  font-family: "primary-font-regular";
+  margin: 2rem; }
+  .dashboard p {
+    text-align: center;
+    font-size: 1.2rem; }
+    .dashboard p span {
+      color: #227C9D;
+      font-size: 2rem;
+      font-family: "logo"; }
+  .dashboard table {
+    width: 100%;
+    padding: 3rem; }
+  .dashboard th {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300; }
+  .dashboard td {
+    text-align: left;
+    font-size: 1.1rem; }
+
 .footer {
   text-align: center;
   padding: 1.5rem;
@@ -314,4 +339,14 @@ h1 {
         text-align: center; }
       .register .register-form .btn {
         margin-top: 1.2rem;
-        padding: 1rem 3rem; } }
+        padding: 1rem 3rem; }
+  .dashboard {
+    margin: 1rem; }
+    .dashboard table {
+      padding: 0.5rem;
+      margin-top: 2rem; }
+    .dashboard th {
+      font-size: 1.3rem; }
+    .dashboard td {
+      text-align: left;
+      font-size: 1rem; } }
